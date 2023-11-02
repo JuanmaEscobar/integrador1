@@ -123,7 +123,9 @@ section {
 	border-radius: 100px;
 	margin-bottom: 50px;
 	background: radial-gradient(#232526, #414345);
-	margin: 120px auto;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 100px;
 }
 
 .hero-info {
@@ -377,6 +379,10 @@ section {
 }
 
 /* FOOTER */
+
+#footer {
+	margin-top: 0 auto;
+}
 
 .container-1 {
 	padding: 20px;
