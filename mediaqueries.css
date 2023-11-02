@@ -269,18 +269,8 @@
 	.contact-form h3 {
 		text-align: center;
 	}
-	/* 
-	.form-msg {
-		height: 100px;
-		width: 490px;
-	}
 
-	.form-btn {
-		width: 490px;
+	.form ::placeholder {
+		text-align: center;
 	}
-
-	.form input {
-		max-width: 500px;
-		margin: 0 auto;
-	} */
 }
