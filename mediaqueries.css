@@ -4,6 +4,7 @@
 
 	#hero {
 		max-width: 900px;
+		margin: 0 auto;
 	}
 
 	/* ============ MENU HAMB ============= */
@@ -101,10 +102,13 @@
 
 	/*  ================== HERO ==================*/
 	#hero {
-		margin-top: 160px;
 		max-width: 500px;
 		flex-direction: column;
 		gap: 0;
+		margin: auto;
+		margin-top: 160px;
+		margin-bottom: 100px;
+		height: 600px;
 	}
 
 	.hero-info {
@@ -113,8 +117,16 @@
 		align-items: center;
 	}
 
+	.hero-info h1 {
+		text-align: center;
+	}
+
+	.hero-info p {
+		text-align: center;
+	}
+
 	#main_slider {
-		max-width: 300px;
+		max-width: 490px;
 		height: 250px;
 		margin: 0;
 	}
@@ -128,6 +140,8 @@
 	#gaming {
 		max-width: 500px;
 		border-radius: 50px;
+		margin: 0 auto;
+		margin-bottom: 150px;
 	}
 
 	.info-cards-container {
@@ -158,6 +172,8 @@
 
 	#tech {
 		max-width: 500px;
+		margin: 0 auto;
+		margin-bottom: 150px;
 	}
 
 	.info-cards-container-tech {
@@ -198,6 +214,7 @@
 		flex-direction: initial;
 		gap: 0px;
 		padding: 30px;
+		margin-bottom: 150px;
 	}
 
 	.beneficios {
@@ -215,6 +232,11 @@
 	}
 
 	/* ===== FOOTER ==== */
+
+	#footer {
+		max-width: 500px;
+		margin: 0 auto;
+	}
 
 	.container-1 {
 		flex-direction: column;
@@ -239,7 +261,12 @@
 		text-align: center;
 	}
 
+	.form-msg {
+		height: 100px;
+		width: 490px;
+	}
+
 	.form-btn {
-		width: 350px;
+		width: 490px;
 	}
 }
