@@ -190,13 +190,18 @@
 	}
 
 	.img-p-tech-lenovo {
-		width: 220px;
+		width: 190px;
 		height: 180px;
 	}
 
 	.info-card-tech div {
 		width: 160px;
 		height: 62px;
+		align-items: center;
+	}
+
+	.info-card-tech p {
+		text-align: center;
 	}
 
 	.info-card-data-tech {
@@ -234,7 +239,7 @@
 	/* ===== FOOTER ==== */
 
 	#footer {
-		max-width: 500px;
+		min-width: 501px;
 		margin: 0 auto;
 	}
 
@@ -260,7 +265,7 @@
 	.contact-form h3 {
 		text-align: center;
 	}
-
+	/* 
 	.form-msg {
 		height: 100px;
 		width: 490px;
@@ -269,4 +274,9 @@
 	.form-btn {
 		width: 490px;
 	}
+
+	.form input {
+		max-width: 500px;
+		margin: 0 auto;
+	} */
 }
