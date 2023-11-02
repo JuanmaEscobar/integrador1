@@ -270,6 +270,10 @@
 		text-align: center;
 	}
 
+	.form input {
+		width: 150px;
+	}
+
 	.form-msg {
 		width: 150px;
 	}
