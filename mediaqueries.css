@@ -270,6 +270,10 @@
 		text-align: center;
 	}
 
+	.form-msg {
+		width: 150px;
+	}
+
 	.form ::placeholder {
 		text-align: center;
 	}
