@@ -1,0 +1,245 @@
+/* Tablet */
+@media (max-width: 992px) {
+	/*  ================== HERO ==================*/
+
+	#hero {
+		max-width: 900px;
+	}
+
+	/* ============ MENU HAMB ============= */
+
+	.menu-label {
+		display: flex;
+		order: 2;
+	}
+	.menu-label img {
+		height: 20px;
+		width: 25px;
+	}
+
+	.navbar-list {
+		position: absolute;
+		top: 90px;
+		width: 100%;
+		right: 0%;
+		flex-direction: column;
+		background-color: var(--background);
+		border-top: 0;
+		padding: 20px 30px;
+		display: none;
+		gap: 20px;
+		align-items: center;
+	}
+
+	#menu-toggle:checked ~ .navbar-list {
+		display: flex;
+	}
+
+	/*  ================== GAMING ==================*/
+
+	#gaming {
+		max-width: 900px;
+	}
+
+	.info-cards-container {
+		width: 700px;
+	}
+
+	/* ================= TECH =================== */
+
+	#tech {
+		max-width: 900px;
+	}
+
+	.info-cards-container-tech {
+		width: 700px;
+	}
+
+	.img-p-tech-lenovo {
+		width: 220px;
+		height: 200px;
+	}
+
+	/*  ================== BENEFICIOS ==================*/
+	#beneficios {
+		min-width: 900px;
+	}
+
+	/* ====== FOOTER ===== */
+
+	.footer-section {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container-1 {
+		justify-content: space-around;
+		width: 100%;
+		gap: 100px;
+	}
+
+	.contact-text {
+		display: none;
+	}
+
+	.footer-widget {
+		align-items: center;
+	}
+
+	.ul-footer {
+		text-align: center;
+	}
+}
+
+/* CEL */
+@media (max-width: 578px) {
+	/* ================= MENU HAMB =============== */
+
+	.navbar-list {
+		align-items: flex-end;
+	}
+
+	/*  ================== HERO ==================*/
+	#hero {
+		margin-top: 160px;
+		max-width: 500px;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.hero-info {
+		margin: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#main_slider {
+		max-width: 300px;
+		height: 250px;
+		margin: 0;
+	}
+
+	.slider-frame {
+		max-width: 200px;
+	}
+
+	/*  ================== GAMING ==================*/
+
+	#gaming {
+		max-width: 500px;
+		border-radius: 50px;
+	}
+
+	.info-cards-container {
+		width: 480px;
+	}
+
+	.info-card {
+		width: 200px;
+		height: 251px;
+		padding: 10px;
+	}
+
+	.info-card-data {
+		gap: 0px;
+		width: 180px;
+	}
+
+	.img-p {
+		width: 180px;
+		height: 180px;
+	}
+
+	.btn-b {
+		width: 100px;
+	}
+
+	/* ======= TECH ===== */
+
+	#tech {
+		max-width: 500px;
+	}
+
+	.info-cards-container-tech {
+		width: 480px;
+	}
+
+	.info-card-tech {
+		width: 220px;
+	}
+
+	.img-p-tech {
+		width: 180px;
+		height: 180px;
+	}
+
+	.img-p-tech-lenovo {
+		width: 220px;
+		height: 180px;
+	}
+
+	.info-card-tech div {
+		width: 160px;
+		height: 62px;
+	}
+
+	.info-card-data-tech {
+		gap: 0px;
+	}
+
+	/*  ================== BENEFICIOS ==================*/
+
+	#beneficios {
+		min-width: 500px;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+		margin: 0 auto;
+		flex-direction: initial;
+		gap: 0px;
+		padding: 30px;
+	}
+
+	.beneficios {
+		margin-top: 0px;
+	}
+
+	.bnf-container {
+		flex-direction: column;
+		gap: 0px;
+		height: auto;
+	}
+
+	.btn-b {
+		width: 200px;
+	}
+
+	/* ===== FOOTER ==== */
+
+	.container-1 {
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.logo-text {
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer-widget {
+		align-items: center;
+	}
+
+	.ul-footer {
+		text-align: center;
+	}
+
+	.contact-form h3 {
+		text-align: center;
+	}
+
+	.form-btn {
+		width: 350px;
+	}
+}

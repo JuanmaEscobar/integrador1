@@ -1,0 +1,133 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 65px;
+}
+
+/* ---- ANIMACIÓN HERO INFO ---- */
+
+.btn {
+	transition: all 0.2s ease-out;
+	font-weight: 600;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+	transition: all 0.2s ease-in;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.hero-info h1 {
+	animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+}
+
+.log-in-form h1 {
+	animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+}
+
+/* ============ SLIDER HERO ============ */
+
+#main_slider {
+	margin: 50px;
+	max-width: 1300px;
+}
+
+.slider-frame {
+	width: 1280px;
+	height: auto;
+	margin: 150px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	margin-top: 50px;
+	animation: slide 16s infinite alternate-reverse ease-in-out;
+}
+
+.slider-frame li {
+	list-style: none;
+	width: 100%;
+	border-radius: 10%;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {
+		margin-left: 0%;
+	}
+	20% {
+		margin-left: 0%;
+	}
+
+	25% {
+		margin-left: -100%;
+	}
+	45% {
+		margin-left: -100%;
+	}
+
+	50% {
+		margin-left: -200%;
+	}
+	70% {
+		margin-left: -200%;
+	}
+
+	75% {
+		margin-left: -300%;
+	}
+	100% {
+		margin-left: -300%;
+	}
+}
+
+/* --- MICROINTERACCION GAMING --- */
+
+.info-card img:hover {
+	transform: scale(1.05);
+	transition: all 0.3s linear;
+}
+
+.btn-b img:hover {
+	transform: scale(1.8);
+	transition: all 0.3s linear;
+}
+
+.btn-b {
+	transition: all 0.2s ease-out;
+	font-weight: 600;
+}
+
+.btn-b:hover {
+	background-color: white;
+	color: black;
+	transition: all 0.2s ease-in;
+}
+
+/* --- MICROINTERACCION TECH --- */
+
+.info-card-tech img:hover {
+	transform: scale(1.05);
+	transition: all 0.3s linear;
+}
+
+/* --- MICROINTERACCION BENEFICIOS--- */
+
+.bnf img:hover {
+	transform: scale(1.05);
+	transition: all 0.3s linear;
+}
