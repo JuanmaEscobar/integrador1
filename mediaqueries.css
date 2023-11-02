@@ -226,6 +226,10 @@
 		margin-top: 0px;
 	}
 
+	.bnf {
+		width: 300px;
+	}
+
 	.bnf-container {
 		flex-direction: column;
 		gap: 0px;
