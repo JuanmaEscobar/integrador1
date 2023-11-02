@@ -110,7 +110,6 @@ section {
 /* ============ HERO ========== */
 
 #hero {
-	padding: 70px 0;
 	max-width: 1200px;
 	display: flex;
 	justify-content: center;
@@ -119,7 +118,7 @@ section {
 	font-size: var(--font-sm);
 	font-weight: var(--font-semibold);
 	background: var(--primary);
-	padding: 8px 20px;
+	padding: 20px 20px;
 	border-radius: 100px;
 	margin-bottom: 50px;
 	background: radial-gradient(#232526, #414345);
